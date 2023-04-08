@@ -55,7 +55,7 @@ In my analysis of Sentinel-1 GDR data for flood monitoring, I performed radiomet
 
 **6. Accuracy Assessment:** The accuracy of the flood map was assessed by comparing it with the ground truth data collected through field visits and high-resolution optical satellite imagery.
  
-#**References**
+# **References**
 1. Sentinel-1 Toolbox: https://sentinel.esa.int/web/sentinel/toolboxes/sentinel-1
 2. Gao, B. (1996). NDWI--A normalized difference water index for remote sensing of vegetation liquid water from space. Remote Sensing of Environment, 58(3), 257-266. https://doi.org/10.1016/S0034-4257(96)00067-3
 3. NDWI calculation using Python: https://www.hatarilabs.com/ih-en/normalized-difference-water-index-ndwi-with-sentinel-2-ndvi-ndre-vegetation-indices-in-python-tutorial
