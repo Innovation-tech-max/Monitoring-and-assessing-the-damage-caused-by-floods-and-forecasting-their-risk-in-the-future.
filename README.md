@@ -1,5 +1,5 @@
 # Monitoring-and-assessing-the-damage-caused-by-floods-and-forecasting-their-risk-in-the-future.
-This repo is a part of an assignment from Blue Sky Analytics . The goal is to use Python to analyze geospatial datasets and compare data across  different time periods and geographic regions to gain insights into changes in Earth- related attributes. A report of the project can be found [here]().
+This repo is a part of an assignment from Blue Sky Analytics . The goal is to use Python to analyze geospatial datasets and compare data across  different time periods and geographic regions to gain insights into changes in Earth- related attributes.
 
 # **Why should I care about this topic?**
 
@@ -11,17 +11,13 @@ When the water level had increased to almost overflow level as a result of sever
 
 I am from Assam and the study of floods in most of the regions can provide valuable insights and knowledge that can be applied to similar situations in my own region. Kerala and Assam share similar geographic and climatic conditions, which makes the analysis of floods in Kerala relevant and informative for understanding the potential impact of floods in Assam.
 
-
 # **Goal**
 
-The purpose of this project is to create a machine learning model capable of semantic segmentation of floodwater in order to anticipate when a flood is likely to occur, allowing early warnings to save lives and prevent flood damage. To do this, we are use the Sentinel-1 dataset, which consists of radar images recorded as 512 x 512 pixel GeoTIFFs.
+The objective of this project is to develop a robust flood monitoring and mapping system using Sentinel-1 data. This includes preprocessing the Sentinel-1 Ground Range Detected (GRD) data, performing Normalized Difference Water Index (NDWI) analysis to detect water bodies, and creating a flood map by comparing NDWI values before, during, and after a flood event. In addition, we aim to perform time series analysis to study the damage caused by the flood.
 
-The Python computer language, as well as numerous Python libraries, is being used to do detection analysis in order to assess the severity of flooding disasters. Moreover, we are attempting to discern between parts in a photograph that have floodwater and areas that do not have floodwater. This entails creating a machine learning model capable of properly segmenting floodwater zones in Sentinel-1 SAR photos.
+Python programming language and various libraries are being used for this analysis. Our goal is to accurately identify and map floodwater areas in Sentinel-1 SAR images through a machine learning model capable of semantic segmentation. The model will be trained on a manually annotated subset of the Sentinel-1 dataset with floodwater labels, and its performance will be evaluated using metrics such as accuracy, precision, recall, and F1-score.
 
-The model will be trained on a subset of the Sentinel-1 dataset that has been manually annotated with floodwater labels. The model's performance will be measured using a variety of measures, including accuracy, precision, recall, and F1-score.
-
-I want to create an effective tool for predicting and monitoring flood occurrences by establishing an accurate floodwater segmentation model, which can assist decrease the danger of loss of life and property damage.
-
+Ultimately, the aim is to provide an effective tool for predicting and monitoring flood occurrences, which can help reduce the risk of loss of life and property damage.
 
 
 # **Dataset**
