@@ -13,11 +13,11 @@ I am from Assam and the study of floods in most of the regions can provide valua
 
 # **Goal**
 
-The objective of this project is to develop a robust flood monitoring and mapping system using Sentinel-1 data. This includes preprocessing the Sentinel-1 Ground Range Detected (GRD) data, performing Normalized Difference Water Index (NDWI) analysis to detect water bodies, and creating a flood map by comparing NDWI values before, during, and after a flood event. In addition, we aim to perform time series analysis to study the damage caused by the flood.
+The goal of this project is to use the Sentinel-1 dataset and various image processing techniques to perform flood monitoring and mapping, as well as time series analysis to predict and anticipate when floods are likely to occur. The dataset consists of radar images recorded as 512 x 512 pixel GeoTIFFs.
 
-Python programming language and various libraries are being used for this analysis. Our goal is to accurately identify and map floodwater areas in Sentinel-1 SAR images through a machine learning model capable of semantic segmentation. The model will be trained on a manually annotated subset of the Sentinel-1 dataset with floodwater labels, and its performance will be evaluated using metrics such as accuracy, precision, recall, and F1-score.
+Using Python and relevant libraries, we perform preprocessing of the Sentinel-1 GRD data and calculate the Normalized Difference Water Index (NDWI) to identify water bodies before, during, and after the flood. We also create water masks to differentiate between water and non-water pixels. To map the extent of flooding, we calculate the difference between water masks during and before the flood and apply a threshold to mask the data into water and non-water pixels. The resulting flood maps can aid in disaster response efforts and risk mitigation. Lastly, we perform time series analysis to predict and monitor flood occurrences. We study the change in NDWI over time and use linear regression to detect trends in water bodies before and after the flood. This information can be used to anticipate when floods are likely to occur and take preventive measures.
 
-Ultimately, the aim is to provide an effective tool for predicting and monitoring flood occurrences, which can help reduce the risk of loss of life and property damage.
+The overall aim is to develop an effective tool for predicting and monitoring flood occurrences, which can help reduce the risk of loss of life and property damage.
 
 
 # **Dataset**
