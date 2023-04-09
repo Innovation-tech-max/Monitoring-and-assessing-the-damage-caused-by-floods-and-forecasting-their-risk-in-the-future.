@@ -47,7 +47,7 @@ In my analysis of Sentinel-1 GDR data for flood monitoring, I performed radiomet
 
 **4. Flood Mapping:** The NDWI output was thresholded to create a binary water mask, which was then compared with the pre-flood extent of the water bodies to identify the flooded areas. The flood map was generated using GIS software.
 
-**5. Time Series Analysis: Finally, a time series analysis was performed to track the changes in water levels over time. The NDWI values were plotted over time for the before, during, and after flood images to identify the areas that were most affected by the flooding.
+**5. Time Series Analysis:** Finally, a time series analysis was performed to track the changes in water levels over time. The NDWI values were plotted over time for the before, during, and after flood images to identify the areas that were most affected by the flooding.
 
 **6. Accuracy Assessment:** The accuracy of the flood map was assessed by comparing it with the ground truth data collected through field visits and high-resolution optical satellite imagery.
  
