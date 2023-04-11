@@ -41,7 +41,7 @@ In my analysis of Sentinel-1 GDR data for flood monitoring, I performed radiomet
  # **Methodology**
  **1. Data Acquisition:** The Sentinel-1A Dual Polarization Ground Range Detected (GRD) High Resolution (HR) data was acquired from the European Space Agency (ESA) Copernicus Open Access Hub.
 
-**2. Preprocessing:** The data was preprocessed to remove the radiometric and geometric distortions using Sentinel Application Platform (SNAP) software. Radiometric calibration was performed to convert the raw SAR data to backscatter coefficients, and speckle filtering was performed to reduce noise and enhance the signal-to-noise ratio.
+**2. Preprocessing:** The data was preprocessed to remove the radiometric and geometric distortions using python. Radiometric calibration was performed to convert the raw SAR data to backscatter coefficients, and speckle filtering was performed to reduce noise and enhance the signal-to-noise ratio.
 
 **3. NDWI Analysis:** Normalized Difference Water Index (NDWI) was used to identify and map the water bodies. The NDWI was calculated by taking the difference between the Near-Infrared (NIR) and Shortwave Infrared (SWIR) bands and dividing it by their sum.
 
