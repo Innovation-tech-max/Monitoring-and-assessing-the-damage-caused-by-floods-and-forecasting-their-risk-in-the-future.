@@ -30,13 +30,7 @@ This project's dataset is available for download at the following site:
 (https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/data-products).
 The collection includes raw Sentinel-1 SAR photos as well as floodwater annotation masks.
 The dataset is given in a format that is compatible with well-known machine learning frameworks like TensorFlow and PyTorch. 
-
-# **Preprocessing**
-
-In my analysis of Sentinel-1 GDR data for flood monitoring, I performed radiometric calibration and speckle filtering as part of the preprocessing steps. 
-**Radiometric calibration** helps to correct for variations in the received signal caused by changes in the distance between the satellite and the ground surface, as well as differences in the characteristics of the radar system itself. 
-**Speckle filtering** is used to reduce the impact of speckle noise, which can make it difficult to identify changes in the image over time. 
- However, I have skipped other preprocessing steps such as terrain correction, orbit file correction, and geometric calibration as in the context of flood mapping, these steps may not be necessary or may not provide significant benefits.
+ 
  
  # **Methodology**
  **1. Data Acquisition:** The Sentinel-1A Dual Polarization Ground Range Detected (GRD) High Resolution (HR) data was acquired from the European Space Agency (ESA) Copernicus Open Access Hub.
