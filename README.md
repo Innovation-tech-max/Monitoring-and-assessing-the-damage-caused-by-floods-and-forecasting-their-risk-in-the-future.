@@ -17,7 +17,7 @@ The goal of this project is to use the Sentinel-1 dataset and various image proc
 
 Using Python and relevant libraries, we perform preprocessing of the Sentinel-1 GRD data and calculate the Normalized Difference Water Index (NDWI) to identify water bodies before, during, and after the flood. We also create water masks to differentiate between water and non-water pixels. To map the extent of flooding, we calculate the difference between water masks during and before the flood and apply a threshold to mask the data into water and non-water pixels. The resulting flood maps can aid in disaster response efforts and risk mitigation. Lastly, we perform time series analysis to predict and monitor flood occurrences. We study the change in NDWI over time and use linear regression to detect trends in water bodies before and after the flood. This information can be used to anticipate when floods are likely to occur and take preventive measures.
 
-The overall aim is to develop an effective tool for predicting and monitoring flood occurrences, which can help reduce the risk of loss of life and property damage.
+The overall aim is to develop an effective tool for predicting and monitoring flood occurrences, which can help reduce the risk of loss of life and property damage. A detailed report on the findings of the journey can be found here (https://github.com/Innovation-tech-max/Monitoring-and-assessing-the-damage-caused-by-floods-and-forecasting-their-risk-in-the-future./blob/main/Detailed%20Report%20of%20the%20Findings.pdf).
 
 
 # **Dataset**
